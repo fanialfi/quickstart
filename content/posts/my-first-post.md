@@ -26,3 +26,14 @@ draft = true
 title = 'My First Post'
 +++
 ```
+
+Untuk menjalankan Hugo develompent server, ada 2 cara yang bisa kamu lakukan, dari kedua cara ini kamu boleh memilihnya salah satu
+
+```
+hugo server --buildDrafts
+hugo server -D
+```
+
+ketika sudah selesai dan sudah matang dengan content yang baru dibuat, ubah parameter _front matter_ **draft** menjadi **false**
+
+pastikan juga ketika mengupload repository project hugo, folder _public/_ jangan sampai diupload ke repository, karena isi dari folder tersebut adalah hasil dari kompilasi content hugo
