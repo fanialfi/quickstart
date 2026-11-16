@@ -1,6 +1,6 @@
 +++
 date = '2026-11-16T14:06:25+07:00'
-draft = true
+draft = false
 title = 'Configuring project hugo'
 +++
 
